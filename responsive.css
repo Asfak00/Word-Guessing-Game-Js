@@ -1,0 +1,46 @@
+@media screen and (max-width: 700px) {
+  .gameArea {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 580px) {
+  nav {
+    font-size: 1.1rem;
+  }
+
+  .gameArea {
+    width: 90%;
+    padding: 0.8rem;
+    margin-top: 3em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .gameArea {
+    width: 90%;
+    padding: 0.5rem;
+  }
+
+  .gameArea h3 {
+    font-size: 14px;
+  }
+
+  .gameArea p {
+    font-size: 0.7rem;
+  }
+
+  .gameArea input {
+    width: 70%;
+    height: 30px;
+  }
+
+  .gameArea button {
+    padding: 0.4rem;
+    font-size: 1rem;
+  }
+}

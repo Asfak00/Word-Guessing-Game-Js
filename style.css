@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(200, 216, 230);
+}
+
+nav {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(9, 118, 213);
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1.6rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.634);
+  font-family: "Courier New", Courier, monospace;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameArea {
+  width: 50%;
+  padding: 2rem;
+  background-color: rgb(9, 118, 213);
+  display: flex;
+  margin-top: 10em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 10px 5px -8px rgba(0, 0, 0, 0.718);
+  color: white;
+}
+
+.gameArea h3 {
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.634);
+  display: none;
+}
+
+.gameArea p {
+  margin-top: 1rem;
+  color: white;
+  font-size: 1rem;
+  display: none;
+}
+
+.gameArea input {
+  width: 40%;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 2rem auto;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.gameArea button {
+  width: auto;
+  padding: 0.9rem;
+  display: block;
+  margin: auto;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  transition: all 0.4s;
+  transition-timing-function: cubic-bezier(0.65, -0.25, 0.25, 0.95);
+  border-radius: 8px;
+  border: 1px solid white;
+  outline: none;
+}
+
+.gameArea button:hover,
+.gameArea button:active,
+.gameArea button:focus {
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  background-color: rgb(78, 145, 245);
+  border: 1px solid white;
+}
+
+.hidden {
+  display: none;
+}
